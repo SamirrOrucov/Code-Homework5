@@ -1,0 +1,48 @@
+.nav-container{
+    display: flex;
+    height: 15vh;
+    cursor: pointer;
+
+}
+.nav-div{
+    border: 1px solid rgb(0, 0, 0);
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+.nav-div:hover{
+background-color: rgba(0, 0, 0, 0.74);
+transition: 300ms;
+}
+.hvr{
+    display: none;
+    position: absolute;
+
+    bottom: -310%;
+}   
+.hv{
+    position: relative;
+}
+.hvr li{
+    background-color: rgb(0, 0, 0);
+display: flex;
+align-items: center;
+justify-content: center;
+    width: 100px;
+    height: 60px;
+}
+.hv:hover .hvr{
+    display: block;
+    transition: 2s;
+
+}
+li:hover{
+    background-color: rgba(0, 0, 0, 0.74);
+    transition: 300ms;
+
+
+}
